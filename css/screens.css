@@ -1,0 +1,204 @@
+/* Desktop */
+/* 3XLarge */
+@media screen and (min-width:1600px) {
+
+  /* Container-1 */
+  .applink {
+    width: 20%;
+  }
+}
+
+/* 2Xlarge */
+@media screen and (max-width:1550px) {
+
+  /* Container-1 */
+  .applink {
+    width: 30%;
+  }
+}
+
+/* Large */
+@media screen and (max-width:1200px) {
+
+  /* Container-1 */
+  .applink {
+    width: 35%;
+  }
+
+  /* Container-3 */
+  .details-parent {
+    flex-basis: 50%;
+    margin: 5% 0 0 0;
+    text-align: center;
+  }
+
+  .computer IMG {
+    position: relative;
+    right: 0;
+  }
+
+  /* Container 6 */
+  .container-6 IMG {
+    margin: 5% 2% 5% 2%;
+  }
+}
+
+/* Tablet/Phones */
+/* Medium */
+@media screen and (max-width:1000px) {
+
+  /* Container-1 */
+  .logo {
+    margin: 10% 0 5% 0;
+  }
+
+  .applink {
+    width: 40%;
+  }
+
+  /* Container-3 */
+  .computer {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .computer IMG {
+    width: 100%;
+  }
+
+  /* Container-4 */
+  .container-4 IMG {
+    width: 95%;
+  }
+
+  /* Container 6 */
+  .container-6 IMG {
+    margin: 5% 3% 5% 3%;
+  }
+
+  /* Footer */
+  .foot-details P {
+    flex-basis: 50%;
+  }
+
+  .foot-icons {
+    flex-basis: 20%;
+    flex-direction: column;
+  }
+
+  .foot-icons a {
+    margin: 10% 0 10% 0;
+  }
+}
+
+/* Small */
+@media screen and (max-width:800px) {
+
+  /* Container-1 */
+  .logo {
+    margin: 10% 0 5% 0;
+  }
+
+  .headings {
+    padding: 2%;
+  }
+
+  .headings H1 {
+    font-size: 2.0rem;
+  }
+
+  .headings P {
+    width: 90%;
+  }
+
+  .applink {
+    flex-basis: 8rem;
+    width: 50%;
+  }
+
+  /* Container-2 */
+  .container-2 {
+    padding: 5%;
+  }
+
+  .container-2 P {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+
+  /* Container-3 */
+  .computer {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .computer IMG {
+    width: 100%;
+  }
+
+  .details-parent {
+    flex-basis: 100%;
+  }
+
+  .details-parent p {
+    font-size: 1.1rem;
+    padding: 0 5%;
+  }
+
+  /* Container-4 */
+  .container-4 P {
+    font-size: 1.1rem;
+    width: 80%;
+  }
+  /* Cotnainer-5 */
+  .container-5 div {
+    flex-basis: 80%;
+    margin: 10% 0 5% 0;
+  }
+  .box-3{
+    padding: 3%;
+  }
+  /* Container-6 */
+  .container-6 IMG {
+    margin: 15%;
+  }
+  /* Container-7 */
+  .detail-7 {
+    width: 90%;
+  }
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .foot-details {
+    flex-direction: column;
+  }
+  .foot-logo {
+    justify-content: center;
+    margin: 5%;
+  }
+  .foot-icons {
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10%;
+  }
+  .foot-icons a{
+    margin: 10% 15% 10% 15%;
+  }
+}
+
+/* ExtraSmall */
+@media screen and (max-width:576px) {
+
+  /* Container-1 */
+  .logo {
+    margin: 15% 0 15% 0;
+  }
+
+  .applink {
+    flex-basis: 10rem;
+    padding: 0.256rem 0.256rem;
+  }
+}

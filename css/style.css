@@ -1,0 +1,255 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: #4c545d;
+  margin: 0;
+}
+
+p {
+  color: #a0acb3;
+  font-size: 1.2rem;
+}
+
+/* Container1 */
+.container-1 {
+  align-items: center;
+  background-image: url("../images/bg-header-desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logo {
+  margin: 10% 0 2% 0;
+}
+
+.headings {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  text-align: center;
+}
+
+.headings H1 {
+  font-size: 2.5rem;
+}
+
+.headings P {
+  width: 80%;
+}
+
+.applink {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.applink button {
+  border: none;
+  border-radius: 50rem;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Bai Jamjuree', sans-serif;
+  padding: 1rem 2rem;
+}
+
+.iosBtn {
+  background-color: #26baa4;
+  box-shadow: 0 5px 2px #21ac97;
+}
+
+.iosBtn:hover {
+  background-color: #2cc4ae;
+}
+
+.macBtn {
+  background-color: #6173ff;
+  box-shadow: 0 5px 2px #5667e8;
+}
+
+.macBtn:hover {
+  background-color: #7684f5;
+}
+
+/* Container2 */
+.container-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5% auto 5% auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.container-2 H1 {
+  font-size: 2.0rem;
+}
+
+.container-2 P {
+  width: 40%;
+}
+
+/* Container 3 */
+.container-3 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0 8% 0;
+}
+
+.details-parent {
+  display: flex;
+  flex-basis: 25%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.computer IMG {
+  position: relative;
+  right: 20%;
+}
+
+.details-parent H1 {
+  font-size: 1.5rem;
+}
+
+.details-parent p {
+  width: 90%;
+}
+
+.details-parent div {
+  margin: 2% 0 2% 0;
+}
+
+/* Container 4 */
+.container-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 7.5% auto 3% auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.container-4 H1 {
+  font-size: 2.0rem;
+}
+
+.container-4 P {
+  width: 40%;
+}
+
+.container-4 IMG {
+  margin: 2.5% 0 5% 0;
+}
+
+/* Container-5 */
+.container-5 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-5 div {
+  flex-basis: 22%;
+  margin: 0 2% 0 2%;
+}
+/* Container-6 */
+.container-6 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-6 IMG {
+  margin: 4%;
+}
+/* Container-7 */
+.container-7 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2.5% 0 5% 0;
+}
+
+.detail-7 {
+  margin: 0 0 1% 0;
+  text-align: center;
+  width: 40%;
+}
+/* Footer */
+.footer {
+  align-items: center;
+  background-color: #f5f6f8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2.5% 0 2.5% 0;
+}
+
+.foot-logo {
+  display: flex;
+  flex-basis: 10%;
+}
+
+.foot-logo IMG {
+  flex-basis: 50%;
+}
+
+.foot-details {
+  align-items: center;
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.foot-details P {
+  flex-basis: 30%;
+}
+
+.foot-details a {
+  color: #4c545d;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.foot-details a:hover {
+  color: #26baa4;
+}
+
+.foot-icons {
+  align-items: center;
+  display: flex;
+  flex-basis: 10%;
+  justify-content: space-around;
+  transition: 0.3s;
+}
+
+.fb svg:hover path {
+  fill: #3b5998;
+}
+
+.twitter svg:hover path {
+  fill: #00acee;
+}
+
+.instagram svg:hover path {
+  fill: #be1cb1;
+}
